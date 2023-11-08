@@ -53,5 +53,5 @@ darkToggle.addEventListener('click', function () {
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     darkToggle.checked = true;
   } else {
-    darkToggle.checked = true;
+    darkToggle.checked = false;
   }
